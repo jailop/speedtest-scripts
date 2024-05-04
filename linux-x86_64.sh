@@ -2,14 +2,8 @@
 
 URL="https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py"
 
-if which curl &> /dev/null; then
-    curl -O $URL
-else
-    wget $URL
-fi
+curl -O $URL
 
-chmod +x speedtest.py
-
-./speedtest.py --server 16976
+python3 speedtest.py --server 16976
 
 rm speedtest.py
