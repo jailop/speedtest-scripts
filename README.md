@@ -17,3 +17,9 @@ For Windows:
 ```
 (New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/jailop/speedtest-scripts/main/windows.ps1") | Invoke-Expression
 ```
+
+For MacOs, you can use this built-in command:
+
+```
+networkquality
+```
