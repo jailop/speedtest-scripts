@@ -1,3 +1,5 @@
+Copy the respective line, according to your system, and execute it in a terminal.
+
 Linux with Curl:
 
 ```
@@ -13,5 +15,5 @@ wget https://raw.githubusercontent.com/jailop/speedtest-scripts/main/linux-x86_6
 For Windows:
 
 ```
-
+(New-Object System.Net.WebClient).DownloadString("https://raw.githubusercontent.com/jailop/speedtest-scripts/main/windows.ps1") | Invoke-Expression
 ```
